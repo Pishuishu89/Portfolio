@@ -2,10 +2,13 @@
   "name": "purple-portfolio",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://Pishuishu89.github.io/Portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy":   "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -14,10 +17,11 @@
     "lucide-react": "^0.257.0"
   },
   "devDependencies": {
-    "vite": "^4.5.14",
     "@vitejs/plugin-react": "^4.0.0",
-    "tailwindcss": "^3.3.2",
     "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.23"
+    "gh-pages": "^5.0.0",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.5.14"
   }
 }
