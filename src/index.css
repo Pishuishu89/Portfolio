@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Smooth scrolling */
+html { scroll-behavior: smooth; }
+/* Scroll snapping */
+#root > div { scroll-snap-type: y mandatory; overflow-y: auto; }
+section { scroll-snap-align: start; }
