@@ -6,41 +6,40 @@ const projectList = [
     title: 'Fitness Application',
     description: 'Full-stack fitness tracker (React, HTML/CSS/JS) with heartbeat-to-text Arduino hack, plus nutrition data scraped via Python.',
     link: 'https://github.com/artin59/CTRL-HACK-DEL',
-    image: 'public/images/fitness-app.png'
+    image: `${import.meta.env.BASE_URL}images/fitness-app.png`
   },
   {
     title: 'Real-Time Squat Analyzer',
     description: 'OpenCV + MediaPipe tool for calculating knee-angle and providing live form feedback.',
     link: 'https://github.com/Pishuishu89/Depth_Checker',
-    image: 'public/images/squat-analyzer.png'
+    image: `${import.meta.env.BASE_URL}images/squat-analyzer.png`
   },
   {
     title: 'Plant Disease Classifier',
     description: 'TensorFlow CNN to classify healthy vs. diseased leaves with a Streamlit front-end and Docker deployment.',
-    link: 'https://github.com/Pishuishu89/Plant-Disease-Detector-',
-    image: 'public/images/plant-disease-classifier.png'
+    link: 'https://v6wcbgrfoydjmjysgicbe8.streamlit.app',
+    image: `${import.meta.env.BASE_URL}images/plant-disease-classifier.png`
   },
   {
     title: 'WhoTheGOAT – NBA MVP Predictor',
     description: 'End-to-end ML pipeline with Selenium-scraped stats, RandomForestRegressor (1% MAE), and Flask UI.',
-    link: 'https://github.com/Pishuishu89/whothegoat',
-    image: 'public/images/whothegoat.png'
+    link: 'https://pishuishu89.github.io/WhoTheGoat/',
+    image: `${import.meta.env.BASE_URL}images/whothegoat.png`
   },
   {
     title: 'Credit Card Fraud Detection',
     description: 'Streamlit dashboard with Logistic Regression, Random Forest, and XGBoost; interactive metrics and uploads.',
-    link: 'https://github.com/Pishuishu89/credit-card-fraud-app',
-    image: 'public/images/fraud-detection-app.png'
+    link: 'https://credit-card-fraud-app-ew858uzdpnuepddsnovuqt.streamlit.app',
+    image: `${import.meta.env.BASE_URL}images/fraud-detection-app.png`
   },
-
   {
-        title: 'Cyclistic Bike-Share Analysis',
-        description: 'Analyzed Chicago’s Cyclistic bike-share data with Python to uncover rider behavior patterns',
-        link: 'https://github.com/Pishuishu89/Cyclistic',
-        image: 'public/images/cyclistic.png'
-      }
-
+    title: 'Cyclistic Bike-Share Analysis',
+    description: 'Analyzed Chicago’s Cyclistic bike-share data with Python to uncover rider behavior patterns',
+    link: 'https://github.com/Pishuishu89/Cyclistic',
+    image: `${import.meta.env.BASE_URL}images/cyclistic.png`
+  }
 ];
+
 
 export default function Projects() {
   return (
