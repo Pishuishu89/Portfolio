@@ -31,7 +31,7 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
         >
           <img
-            src={`${import.meta.env.BASE_URL}avatar/avatar.png`}
+            src={`${import.meta.env.BASE_URL}public/avatar.png`}
             alt="Ishaan Das-Basak"
             className="w-3/4 mx-auto rounded-full shadow-lg border-4 border-secondaryPurple"
           />
