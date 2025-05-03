@@ -6,38 +6,38 @@ const projectList = [
     title: 'Fitness Application',
     description: 'Full-stack fitness tracker (React, HTML/CSS/JS) with heartbeat-to-text Arduino hack, plus nutrition data scraped via Python.',
     link: 'https://github.com/artin59/CTRL-HACK-DEL',
-    image: '/images/fitness-app.png'
+    image: 'public/images/fitness-app.png'
   },
   {
     title: 'Real-Time Squat Analyzer',
     description: 'OpenCV + MediaPipe tool for calculating knee-angle and providing live form feedback.',
     link: 'https://github.com/Pishuishu89/Depth_Checker',
-    image: '/images/squat-analyzer.png'
+    image: 'public/images/squat-analyzer.png'
   },
   {
     title: 'Plant Disease Classifier',
     description: 'TensorFlow CNN to classify healthy vs. diseased leaves with a Streamlit front-end and Docker deployment.',
     link: 'https://github.com/Pishuishu89/Plant-Disease-Detector-',
-    image: '/images/plant-disease-classifier.png'
+    image: 'public/images/plant-disease-classifier.png'
   },
   {
     title: 'WhoTheGOAT – NBA MVP Predictor',
     description: 'End-to-end ML pipeline with Selenium-scraped stats, RandomForestRegressor (1% MAE), and Flask UI.',
     link: 'https://github.com/Pishuishu89/whothegoat',
-    image: '/images/whothegoat.png'
+    image: 'public/images/whothegoat.png'
   },
   {
     title: 'Credit Card Fraud Detection',
     description: 'Streamlit dashboard with Logistic Regression, Random Forest, and XGBoost; interactive metrics and uploads.',
     link: 'https://github.com/Pishuishu89/credit-card-fraud-app',
-    image: '/images/fraud-detection-app.png'
+    image: 'public/images/fraud-detection-app.png'
   },
 
   {
         title: 'Cyclistic Bike-Share Analysis',
         description: 'Analyzed Chicago’s Cyclistic bike-share data with Python to uncover rider behavior patterns',
         link: 'https://github.com/Pishuishu89/Cyclistic',
-        image: '/images/cyclistic.png'
+        image: 'public/images/cyclistic.png'
       }
 
 ];
