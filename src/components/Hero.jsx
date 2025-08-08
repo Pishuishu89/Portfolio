@@ -15,7 +15,7 @@ export default function Hero() {
             Hi, I&apos;m Ishaan Das-Basak
           </h1>
           <p className="text-lg mb-6">
-            A 3rd-year Software Engineering student at York University’s Big Data stream, I’m passionate about transforming raw data into actionable insights through analytics and machine learning.
+            A 4th-year Software Engineering student at York University’s Big Data stream, I’m passionate about transforming raw data into actionable insights through analytics and machine learning.
           </p>
           <a
             href="#projects"
