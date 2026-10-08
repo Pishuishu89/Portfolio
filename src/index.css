@@ -1,8 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* Smooth scrolling */
-html { scroll-behavior: smooth; }
-/* Scroll snapping */
-#root > div { scroll-snap-type: y mandatory; overflow-y: auto; }
-section { scroll-snap-align: start; }
+
+html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+body { @apply bg-paper text-ink font-sans antialiased; }
+::selection { @apply bg-plum-600 text-white; }
+
+@layer components {
+  .section { @apply mx-auto max-w-6xl px-5 sm:px-8 py-20 sm:py-28; }
+  .eyebrow { @apply font-mono text-xs uppercase tracking-[0.2em] text-plum-600; }
+  .h2 { @apply font-display text-4xl sm:text-5xl font-semibold tracking-tight mt-3; }
+  .chip { @apply inline-flex items-center rounded-full border border-plum-600/15 bg-plum-50 px-2.5 py-0.5 text-xs font-medium text-plum-700; }
+}
+
+.grid-bg {
+  background-image:
+    linear-gradient(to right, rgba(126, 34, 206, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(126, 34, 206, 0.06) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
